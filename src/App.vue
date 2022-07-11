@@ -18,7 +18,7 @@
     </form>
   </div>
 
-  <div class="view chat" >
+  <div class="view chat" v-else>
     <header>
       <button class="logout" @click="Logout">Logout</button>
       <h1>Welcome, {{ state.username }}</h1>

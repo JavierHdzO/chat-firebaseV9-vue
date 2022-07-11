@@ -2,10 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBa5CmOzilfV5Lsl3xZZkYaEC5khgOFvYE",
   authDomain: "chat-firebase-vue-aa095.firebaseapp.com",
@@ -16,6 +13,8 @@ const firebaseConfig = {
   appId: "1:776638502952:web:618d6709c1f4ca43d8fd1d",
   databaseURL: "https://chat-firebase-vue-aa095-default-rtdb.firebaseio.com/",
 };
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
